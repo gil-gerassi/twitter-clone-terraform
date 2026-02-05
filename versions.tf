@@ -9,10 +9,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "twitter-clone-terraform-state-gil-gerassi"
-    key            = "global/s3/terraform.tfstate"
-    region         = "eu-central-1"
-    encrypt        = true
+    bucket  = "twitter-clone-terraform-state-gil-gerassi"
+    key     = "global/s3/terraform.tfstate"
+    region  = "eu-central-1"
+    encrypt = true
   }
 }
 
